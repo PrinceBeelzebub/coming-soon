@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head lang="en-US">
+    <title>Coming Soon | Rashad Wilkins</title>
+    <meta name="description" content="This website is coming soon in 2023.">
+    <meta name="keywords" content="Malware, Security, Software, Forensics, Vulnerability, Hacking, Security">
+    <meta name="author" content="Rashad Wilkins">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 15%;
+        text-align: center;
+        background-image: url(images/background.jpg);
+        background-size: 100%;
+        background-repeat: repeat;
+        grid-template-columns: repeat(10%, 2);
+        grid-template-rows: repeat(auto, 4);
+        grid-template-areas: 
+        "heading"
+        "message"
+        "button"
+        "social";
+    }
+    .heading {
+        font-size: 48px;
+        font-weight: bold;
+        color: #030D15;
+        text-transform: capitalize;
+        padding-left: 32%;
+        padding-right: 32%;
+        grid-area: heading;
+    }
+
+    p {
+        color: #030D15;
+        font-size: 20px;
+        padding-left: 32%;
+        padding-right: 32%;
+        grid-area: message;
+    }
+
+    .button {
+        background-color: #103E5C;
+        color: #FEFEFE;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 0.8% 20%;
+        border-radius: 5px;
+        border-style: none;
+        grid-area: button;
+        margin-bottom: 1%;
+    }
+
+    .button:hover {
+        background-color: #295D7F;
+    }
+
+    .socialbutton {
+        color: #103E5C;
+        grid-area: social;
+    }
+
+    .socialbutton:hover {
+        color: #295D7F;
+    }
+
+    /* Tablet */
+    @media screen and (max-width: 834px) { 
+    .heading {
+        font-size: 2rem;
+        padding-left: none;
+        padding-right: none;
+    }
+
+    p {
+        font-size: 1rem;
+        padding-left: none;
+        padding-right: none;
+    }
+    .button {
+        font-size: 0.8rem;
+        padding: 2% 25%;
+    }
+    }
+
+    /* Phone */
+    @media screen and (max-width: 640px) { 
+    .heading {
+        font-size: 2rem;
+        padding-left: none;
+        padding-right: none;
+    }
+
+    p {
+        font-size: 1rem;
+        padding-left: none;
+        padding-right: none;
+    }
+    .button {
+        font-size: 0.8rem;
+        padding: 2% 25%;
+    }
+    }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">Hello, My website is coming soon in 2023</h1>
+    <p>This website is currently in still in the research and development phase. For now, check out my resume and social media accounts.</p>
+    <a href="uploads/resume.pdf"><button class="button">Download Resume</button></a>
+    <br>
+    <a href="https://www.youtube.com/@digitalresearchlabs"><img class="socialbutton" src="images/youtube.svg" alt="YouTube"></img></a>
+    <a href="https://www.linkedin.com/in/rashadwilkins/"><img class="socialbutton" src="images/linkedin.svg" alt="LinkedIn"></img></a>
+</body>
+
+</html>
